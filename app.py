@@ -2,10 +2,7 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-tasks = [
-    {'id': 1, 'title': 'Купить продукты', 'completed': False},
-    {'id': 2, 'title': 'Сделать уроки', 'completed': True}
-]
+tasks = []
 next_id = 3
 
 
